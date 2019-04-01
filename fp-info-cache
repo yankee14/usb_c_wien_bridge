@@ -1,4 +1,4 @@
-15869162056600263
+15886257720585263
 Amphenol
 USB_C_Receptacle_Amphenol_12401610E4-2A
 USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A
@@ -49119,6 +49119,13 @@ Omega Onion module
 32
 32
 Module
+Onion_Omega2S
+https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
+onion omega module
+0
+89
+64
+Module
 Pololu_Breakout-16_15.2x20.3mm
 Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\
 Pololu Breakout
@@ -50756,6 +50763,13 @@ SMD SMT crystal oscillator hand-soldering
 0
 4
 4
+Package_BGA
+Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
+Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
+BGA 28 0.8
+0
+28
+28
 Package_BGA
 BGA-9_1.6x1.6mm_Layout3x3_P0.5mm
 BGA-9, http://www.ti.com/lit/ds/symlink/bq27421-g1.pdf
@@ -52479,6 +52493,13 @@ DFN 0.5
 8
 8
 Package_DFN_QFN
+OnSemi_UDFN-8_1.2x1.8mm_P0.4mm
+8-Lead Plastic Dual Flat, No Lead Package, 1.2x1.8x1.55 mm Body [UDFN] (See http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF)
+dfn udfn dual flat
+0
+8
+8
+Package_DFN_QFN
 OnSemi_VCT-28_3.5x3.5mm_P0.4mm
 OnSemi  VCT, 28 Pin (http://www.onsemi.com/pub/Collateral/601AE.PDF), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 OnSemi VCT DFN_QFN
@@ -54134,6 +54155,13 @@ Package_DFN_QFN
 TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm
 TQFN, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0136.PDF (T1633-5), https://pdfserv.maximintegrated.com/land_patterns/90-0032.PDF), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 TQFN DFN_QFN
+0
+21
+17
+Package_DFN_QFN
+TQFN-16-1EP_5x5mm_P0.8mm_EP3.1x3.1mm
+TQFN, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0140.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+TQFN NoLead
 0
 21
 17
@@ -57795,6 +57823,13 @@ Package_SO
 SO-4_4.4x3.6mm_P2.54mm
 4-Lead Plastic Small Outline (SO), see https://www.elpro.org/de/index.php?controller=attachment&id_attachment=339
 SO SOIC 2.54
+0
+4
+4
+Package_SO
+SO-4_4.4x3.9mm_P2.54mm
+SO, 4 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=10047&prodName=TLP3123), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
 0
 4
 4
@@ -62832,6 +62867,20 @@ Relay SPDT Potter&Brumfield T9AP5D52 12V 30A 1xUm Connector Fast ON Flachstecker
 0
 0
 Relay_THT
+Relay_SPDT_RAYEX-L90
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90 SPDT
+0
+6
+6
+Relay_THT
+Relay_SPDT_RAYEX-L90S
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90S SPDT
+0
+5
+5
+Relay_THT
 Relay_SPDT_SANYOU_SRD_Series_Form_C
 relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
 relay Sanyu SRD form C
@@ -62915,6 +62964,34 @@ Relau SPST Potter&Brumfield T9AP1D52 12V 30A 1xEin Connector Fast ON Flachstecke
 0
 0
 0
+Relay_THT
+Relay_SPST_RAYEX-L90A
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90A SPST NO
+0
+5
+5
+Relay_THT
+Relay_SPST_RAYEX-L90AS
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90AS SPST NO
+0
+4
+4
+Relay_THT
+Relay_SPST_RAYEX-L90B
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90B SPST NC
+0
+5
+5
+Relay_THT
+Relay_SPST_RAYEX-L90BS
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90BS SPST NC
+0
+4
+4
 Relay_THT
 Relay_SPST_SANYOU_SRD_Series_Form_A
 relay Sanyou SRD series Form A http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
