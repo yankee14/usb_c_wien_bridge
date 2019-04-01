@@ -18,7 +18,7 @@
 
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user)
     (34 B.Paste user hide)
@@ -80,8 +80,8 @@
     (grid_origin 137.287 100.965)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (layerselection 0x010f0_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -103,9 +103,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
@@ -1610,7 +1610,7 @@
   (segment (start 145.669 98.693) (end 144.639 97.663) (width 0.4572) (layer B.Cu) (net 20))
   (segment (start 144.639 97.663) (end 140.575 97.663) (width 0.4572) (layer B.Cu) (net 20))
 
-  (zone (net 1) (net_name GNDA) (layer B.Cu) (tstamp 5CA1A28D) (hatch edge 0.508)
+  (zone (net 1) (net_name GNDA) (layer B.Cu) (tstamp 5CA1AD47) (hatch edge 0.508)
     (connect_pads (clearance 0.381))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.381) (smoothing fillet) (radius 0.254))
@@ -1883,7 +1883,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GNDA) (layer F.Cu) (tstamp 5CA1A28A) (hatch edge 0.508)
+  (zone (net 1) (net_name GNDA) (layer F.Cu) (tstamp 5CA1AD44) (hatch edge 0.508)
     (connect_pads (clearance 0.381))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.381))
