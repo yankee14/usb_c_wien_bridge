@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:usb_c_wien_bridge-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -671,8 +672,6 @@ Wire Wire Line
 	2200 5500 2200 5250
 Wire Wire Line
 	9950 4550 9950 4250
-Wire Wire Line
-	9950 4250 9800 4250
 $Comp
 L Amplifier_Operational:LMV358 U1
 U 1 1 5CA35AC9
@@ -778,9 +777,6 @@ F 3 "~" H 8900 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 4250 9300 4250
-Connection ~ 8300 4250
-Wire Wire Line
 	9150 3650 9150 4150
 Connection ~ 9150 3650
 Wire Wire Line
@@ -846,13 +842,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J3
 U 1 1 5CA0679B
-P 9600 4250
-F 0 "J3" H 9650 4050 50  0000 C CNN
-F 1 "Conn_02x02" H 9650 4350 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x02_P2.00mm_Horizontal" H 9600 4250 50  0001 C CNN
-F 3 "~" H 9600 4250 50  0001 C CNN
-	1    9600 4250
-	-1   0    0    1   
+P 9500 4250
+F 0 "J3" H 9550 4050 50  0000 C CNN
+F 1 "Conn_02x02" H 9550 4350 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x02_P2.00mm_Horizontal" H 9500 4250 50  0001 C CNN
+F 3 "~" H 9500 4250 50  0001 C CNN
+	1    9500 4250
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9150 4150 9300 4150
@@ -887,4 +883,9 @@ Wire Wire Line
 Connection ~ 5250 4250
 Wire Wire Line
 	5250 4250 5700 4250
+Wire Wire Line
+	8300 4250 9300 4250
+Connection ~ 8300 4250
+Wire Wire Line
+	9800 4250 9950 4250
 $EndSCHEMATC
