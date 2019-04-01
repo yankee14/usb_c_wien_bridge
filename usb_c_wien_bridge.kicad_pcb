@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 12)
     (tracks 183)
     (zones 0)
     (modules 27)
@@ -11,7 +11,9 @@
 
   (page USLetter)
   (title_block
+    (title "~~700 Hz WIEN BRIDGE OSCILLATOR")
     (date 2019-03-31)
+    (rev 0.1a)
   )
 
   (layers
@@ -169,7 +171,7 @@
   )
 
   (module Symbol:OSHW-Symbol_2.6x2.3mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 5CA2428B)
-    (at 153.0477 99.2251)
+    (at 153.8351 97.7265)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1403,7 +1405,10 @@
     )
   )
 
-  (gr_text "DESIGN: ED PEGUILLAN III" (at 148.0058 101.4984) (layer F.SilkS)
+  (gr_text R0.1a (at 127.4445 90.0938) (layer F.SilkS)
+    (effects (font (size 0.508 0.508) (thickness 0.127)))
+  )
+  (gr_text "DESIGN: ED PEGUILLAN III" (at 146.1262 101.4476) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )
   (gr_text "~~700 Hz\nWIEN BRIDGE\nOSCILLATOR" (at 146.6342 91.3638) (layer F.Mask) (tstamp 5CA1C790)

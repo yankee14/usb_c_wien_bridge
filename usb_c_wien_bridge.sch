@@ -5,9 +5,9 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Katrina Birthday Gift '19"
+Title "~~700 Hz WIEN BRIDGE OSCILLATOR"
 Date "2019-03-13"
-Rev ""
+Rev "0.1a"
 Comp ""
 Comment1 ""
 Comment2 ""
